@@ -1,0 +1,127 @@
+header {
+
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: -39px;
+    margin-top: -18px;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.firstsection {
+    text-align: center;
+    margin: auto;
+}
+
+.fsection {
+    color: #02073E;
+    width: 817px;
+    height: 150px;
+    letter-spacing: 1px;
+    font-weight: bold 48px;
+    padding-top: 10px;
+    margin: auto;
+    line-height: 40px;
+}
+
+#button {
+    width: auto;
+    height: auto;
+    background-color: #0A8080;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold 18px;
+    padding: 6px;
+
+}
+
+.secondsection {
+    margin-top: 347px;
+    text-align: center;
+    background-color: #FFF5ED;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logos {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.Grow h2 {
+    color: #0F2137;
+    font-weight: bold 34px;
+    letter-spacing: 0.5px;
+
+}
+
+.Grow p {
+    color: #0F2137;
+    font-size: 12px;
+}
+
+.logos p {
+    font-size: 12px;
+}
+
+.logos img {
+    width: 40px;
+    height: 40px;
+}
+
+.logos h5 {
+    margin-top: 4px;
+}
+
+#director{
+color:#7E8896;
+margin-top: -17px;
+margin-left: -250px;
+font-size: small;
+}
+.accounts p{
+    color: #0F2137;
+    font-size: medium;
+}
+.accounts hr{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.companys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.companys img{
+    width: 80px;
+    height: 30px;
+}
