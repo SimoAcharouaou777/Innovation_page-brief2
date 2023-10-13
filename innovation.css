@@ -308,15 +308,34 @@ a {
 }
 .footer{
     margin-top: 100px;
-    background-color:red ;
     display: flex;
     justify-content:space-around;
     align-items: center;
 }
-li{
+.footer li{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-
+.footer h5{
+    display: flex;
+    font-size: medium;
+}
+.footer a{
+    margin-left: -12px;
+    margin-top: -10px;
+}
+.footer img{
+    width: 15px;
+    height: 15px;
+}
+.footerlogo img{
+    width: 60px;
+    height:60px ;
+    margin-left: -44px;
+    margin-bottom: -65px;
+}
+.footerlogo{
+    margin-top: -80px;
+    padding-top: 80px;
+}
