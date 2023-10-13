@@ -100,28 +100,223 @@ a {
     margin-top: 4px;
 }
 
-#director{
-color:#7E8896;
-margin-top: -17px;
-margin-left: -250px;
-font-size: small;
+#director {
+    color: #7E8896;
+    margin-top: -17px;
+    margin-left: -250px;
+    font-size: small;
 }
-.accounts p{
+
+.accounts p {
     color: #0F2137;
     font-size: medium;
 }
-.accounts hr{
+
+.accounts hr {
     margin-left: 300px;
     margin-right: 300px;
 }
-.companys{
+
+.companys {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-left: 100px;
     padding-right: 100px;
 }
-.companys img{
+
+.companys img {
     width: 80px;
     height: 30px;
 }
+
+
+.superheros {
+    text-align: center;
+    color: #0F2137;
+}
+
+.superheros h2 {
+    letter-spacing: 0.5px;
+}
+
+.charachters {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.charachters h2 {
+    color: #0F2137;
+}
+
+.charachters p {
+    color: #7589A1;
+}
+
+
+
+.charachter1 {
+    width: 20%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.charachter1 img {
+    width: 100%;
+}
+.services{
+    text-align: center;
+    color: #0F2137;
+
+}
+.services h2{
+    letter-spacing: 0.5px;
+}
+.services p{
+    margin-top: -20px;
+}
+.otherservices img{
+    width: 8%;
+}
+
+.otherservices{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+}
+.forthsection img{
+    width:50px;height: 50px;
+    margin-top: 20px;
+}
+.forthsection p{
+    font-size: 16px;
+    opacity: .7;
+}
+.forthsection a{
+    margin-top: 20px;
+}
+.forthsection{
+    margin-top: 30px;
+    background: #F9FAFC;
+    padding: 30px 0;
+}
+
+
+.ourservice{
+    display: flex;
+    justify-content: space-around;
+}
+.textservice{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.medical{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.life{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ourservice .icons{
+    width: 20px;
+    height: 20px;
+}
+.Populartext{
+    text-align: center;
+}
+.populartext h2{
+     letter-spacing: O.5x;
+     color: #0F2137;
+
+}
+.Popular{
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+.Popular h4{
+   color: #0F2137;
+   text-align: start;
+}
+.Popular p{
+    text-align: start;
+    font-size: small;
+    color: #0F2137;
+}
+.post4 h4{
+    color: aliceblue;
+    margin-top: -50px;
+    margin-left: 30px;
+    
+}
+
+.Popular{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.postimage{
+    justify-content: space-evenly;
+    width: 300px;
+    height: 150px;
+}
+
+.lastone{
+    background-image:url(imgs/background.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.subscribeus h4{
+    color: #0F2137;
+    font-weight: bold ;
+    font-size: 25px;
+    margin-left: 60px;
+}
+.subscribeus p{
+    color: #343D48;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+.emailhome{
+   background-color: #E6E6E6;
+   border-radius: 5%;
+   height: 40px;
+   width: 400px;
+   margin-left: -130px;
+}
+.buttonhome{
+    height: 45px;
+    width: 100px;
+    border-radius: 5%;
+    background-color: #DB4A87;
+    margin-left: -140px;
+}
+.footer{
+    margin-top: 100px;
+    background-color:red ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
