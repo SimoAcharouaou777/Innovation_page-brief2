@@ -167,316 +167,446 @@ a {
 .charachter1 img {
     width: 100%;
 }
-.services{
+
+.services {
     text-align: center;
     color: #0F2137;
 
 }
-.services h2{
+
+.services h2 {
     letter-spacing: 0.5px;
 }
-.services p{
+
+.services p {
     margin-top: -20px;
 }
-.otherservices img{
+
+.otherservices img {
     width: 8%;
 }
 
-.otherservices{
-  display: flex;
-  gap:20px;
-  justify-content: center;
+.otherservices {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
-.forthsection img{
-    width:50px;height: 50px;
+
+.forthsection img {
+    width: 50px;
+    height: 50px;
     margin-top: 20px;
 }
-.forthsection p{
+
+.forthsection p {
     font-size: 16px;
     opacity: .7;
 }
-.forthsection a{
+
+.forthsection a {
     margin-top: 20px;
 }
-.forthsection{
+
+.forthsection {
     margin-top: 30px;
     background: #F9FAFC;
     padding: 30px 0;
 }
 
 
-.ourservice{
+.ourservice {
     display: flex;
     justify-content: space-around;
 }
-.textservice{
+
+.textservice {
     margin-left: 60px;
     margin-top: 40px;
 }
-.medical{
+
+.medical {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.life{
+
+.life {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.ourservice .icons{
+
+.ourservice .icons {
     width: 20px;
     height: 20px;
 }
-.Populartext{
+
+.Populartext {
     text-align: center;
 }
-.populartext h2{
-     letter-spacing: O.5x;
-     color: #0F2137;
+
+.populartext h2 {
+    letter-spacing: O.5x;
+    color: #0F2137;
 
 }
-.Popular{
+
+.Popular {
     display: flex;
     justify-content: space-around;
 
-   
+
 }
-.Popular h4{
-   color: #0F2137;
-   text-align: start;
+
+.Popular h4 {
+    color: #0F2137;
+    text-align: start;
 }
-.Popular p{
+
+.Popular p {
     text-align: start;
     font-size: small;
     color: #0F2137;
 }
-.post4 h4{
+
+.post4 h4 {
     color: aliceblue;
     margin-top: -50px;
     margin-left: 30px;
-    
+
 }
 
-.Popular{
+.Popular {
     padding-left: 80px;
     padding-right: 80px;
 }
-.postimage{
+
+.postimage {
     justify-content: space-evenly;
     width: 300px;
     height: 150px;
 }
 
-.lastone{
-    background-image:url(imgs/background.png);
+.lastone {
+    background-image: url(imgs/background.png);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 200px;
 }
-.table{
+
+.table {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.subscribeus h4{
+
+.subscribeus h4 {
     color: #0F2137;
-    font-weight: bold ;
+    font-weight: bold;
     font-size: 25px;
     margin-left: 60px;
 }
-.subscribeus p{
+
+.subscribeus p {
     color: #343D48;
     margin-top: -20px;
     margin-left: 60px;
 }
-.emailhome{
-   background-color: #E6E6E6;
-   border-radius: 5%;
-   height: 40px;
-   width: 400px;
-   margin-left: -130px;
+
+.emailhome {
+    background-color: #E6E6E6;
+    border-radius: 5%;
+    height: 40px;
+    width: 400px;
+    margin-left: -130px;
 }
-.buttonhome{
+
+.buttonhome {
     height: 45px;
     width: 100px;
     border-radius: 5%;
     background-color: #DB4A87;
     margin-left: -140px;
 }
-.footer{
+
+.footer {
     margin-top: 100px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
-.footer li{
+
+.footer li {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.footer h5{
+
+.footer h5 {
     display: flex;
     font-size: medium;
 }
-.footer a{
+
+.footer a {
     margin-left: -12px;
     margin-top: -10px;
 }
-.footer img{
+
+.footer img {
     width: 15px;
     height: 15px;
 }
-.footerlogo img{
+
+.footerlogo img {
     width: 60px;
-    height:60px ;
+    height: 60px;
     margin-left: -44px;
     margin-bottom: -65px;
 }
-.footerlogo{
+
+.footerlogo {
     margin-top: -80px;
     padding-top: 80px;
 }
-.callus{
+
+.callus {
     display: flex;
     justify-content: center;
-    gap:100px;
+    gap: 100px;
 
-    
+
 }
-.callus img{
+
+.callus img {
     width: 350px;
     height: 400px;
     margin-left: 50px;
     margin-top: 50px;
 }
-.support{
-    margin-top:50px ;
+
+.support {
+    margin-top: 50px;
     display: grid;
     gap: 25px;
-    width:500px;
+    width: 500px;
     text-align: center;
 }
-.support div{
-    display:grid;
+
+.support div {
+    display: grid;
     grid-template-columns: 47.5% 47.5%;
-    gap:5%;
-    
+    gap: 5%;
+
 }
-.support textarea{
+
+.support textarea {
     height: 90px;
 }
-.support button{
+
+.support button {
     align-self: flex-start;
     background-color: #0A8080;
-    width:150px;
-    color:black;
+    width: 150px;
+    color: black;
 }
-.ourcontacts{
+
+.ourcontacts {
     display: flex;
     justify-content: space-around;
 }
-.ourcontacts img{
+
+.ourcontacts img {
     width: 350px;
     height: 400px;
-   
+
 }
-.allcontacts{
+
+.allcontacts {
     display: grid;
     height: 200px;
     margin-top: 110px;
-   
-}
-.contacts{
-    display: flex;
-   height: 40px;
-   align-items: center;
-   gap: 10px;
-}
-.contacts img{
-    width:20px ;
-    height: 20px;
-}
-.contacts p{
-    letter-spacing: 7PX;
-}
-.aboutus{
-    margin-top: 70px;
-}
-.abouthead{
-    text-align: center;
-    color:#02073E ;
-    letter-spacing: 0.9px;
-}
-.abouthead p{
-    font-size: larger;
-}
-.countainer {
-    display: flex;
-    justify-content: space-between;
-  
 
 }
-.countainer img{
-    width: 200px;
-    height: 200px;
-    margin-right: 293px;
-}
-.countainer p{
+
+.contacts {
+    display: flex;
+    height: 40px;
     align-items: center;
-    font-size:larger;
-    margin-left: 290px;
-    letter-spacing: 2px;
-    margin-top: 50px;
+    gap: 10px;
 }
-.secondinabout{
-    margin-top: 90px;
+
+.contacts img {
+    width: 20px;
+    height: 20px;
 }
-.meetourteam h2{
-     text-align: center;
+
+.contacts p {
+    letter-spacing: 7PX;
+    font-size: 10px;
 }
-.thirdinabout{
+
+.aboutus {
+    margin-top: 70px;
+}
+
+.abouthead {
     text-align: center;
     color: #02073E;
     letter-spacing: 0.9px;
 }
-.aboutservises{
+
+.abouthead p {
+    font-size: larger;
+}
+
+.countainer {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.countainer img {
+    width: 200px;
+    height: 200px;
+    margin-right: 293px;
+}
+
+.countainer p {
+    align-items: center;
+    font-size: larger;
+    margin-left: 290px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.secondinabout {
+    margin-top: 90px;
+}
+
+.meetourteam h2 {
+    text-align: center;
+}
+
+.thirdinabout {
+    text-align: center;
+    color: #02073E;
+    letter-spacing: 0.9px;
+}
+
+.aboutservises {
     display: flex;
     justify-content: space-around;
 }
-.aboutservises img{
+
+.aboutservises img {
     width: 200px;
     height: 200px;
     margin-left: -450px;
 }
-.aboutservises p{
+
+.aboutservises p {
     font-size: larger;
     margin-left: 100px;
     letter-spacing: 2px;
     margin-top: 50px;
 }
-.forthinabout{
+
+.forthinabout {
     text-align: center;
     margin-top: 70px;
 }
-.lastinabout img{
+
+
+.lastinabout img {
     width: 200px;
     height: 200px;
     margin-left: -450px;
 }
-.lastinabout h2{
+
+.lastinabout h2 {
     text-align: center;
     color: #02073E;
     letter-spacing: 0.9px;
 }
-.choseus{
+
+.choseus {
     display: flex;
     justify-content: space-around;
 }
-.choseus p{
+
+.choseus p {
     font-size: larger;
     letter-spacing: 0.5px;
     margin-top: 60px;
+}
+.firstinadvertise{
+    text-align: center;
+    margin-top: 80px;
+}
+.advertise{
+    display: flex;
+    justify-content: space-around;
+}
+.advertise img{
+    width: 200px;
+    height: 200px;
+    margin-left: -450px;
+}
+.advertise p{
+    margin-top: 70px;
+    font-size: larger;
+}
+.secondinadvertise{
+    text-align: center;
+    margin-top: 90px;
+}
+.advertisewithus{
+    display: flex;
+    justify-content: space-around;
+}
+.advertisewithus img{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}
+.advertisewithus p{
+    font-size: larger;
+    margin-left: -90px;
+}
+.thirdinadvertise{
+    text-align: center;
+    margin-top: 90px;
+}
+.advertising-options{
+    display: flex;
+    justify-content: space-around;
+}
+.advertising-options img{
+    width: 200px;
+    height: 200px;
+    margin-left: -450px;
+}
+.advertising-options p{
+    margin-top: 40px;
+}
+.lastinadvertise{
+    margin-top: 80px;
+    text-align: center;
+}
+.inputadvertise{
+    place-items: center;
+    display: grid;
+    gap: 15px;
+}
+.inputadvertise input{
+    width:30%;
+}
+.inputadvertise button{
+  width:150px;
+  border-radius: 15px;
+  background-color: #DB4A87;
 }
