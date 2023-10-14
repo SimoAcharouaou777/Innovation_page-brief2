@@ -402,3 +402,81 @@ a {
 .contacts p{
     letter-spacing: 7PX;
 }
+.aboutus{
+    margin-top: 70px;
+}
+.abouthead{
+    text-align: center;
+    color:#02073E ;
+    letter-spacing: 0.9px;
+}
+.abouthead p{
+    font-size: larger;
+}
+.countainer {
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+.countainer img{
+    width: 200px;
+    height: 200px;
+    margin-right: 293px;
+}
+.countainer p{
+    align-items: center;
+    font-size:larger;
+    margin-left: 290px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+.secondinabout{
+    margin-top: 90px;
+}
+.meetourteam h2{
+     text-align: center;
+}
+.thirdinabout{
+    text-align: center;
+    color: #02073E;
+    letter-spacing: 0.9px;
+}
+.aboutservises{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutservises img{
+    width: 200px;
+    height: 200px;
+    margin-left: -450px;
+}
+.aboutservises p{
+    font-size: larger;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+.forthinabout{
+    text-align: center;
+    margin-top: 70px;
+}
+.lastinabout img{
+    width: 200px;
+    height: 200px;
+    margin-left: -450px;
+}
+.lastinabout h2{
+    text-align: center;
+    color: #02073E;
+    letter-spacing: 0.9px;
+}
+.choseus{
+    display: flex;
+    justify-content: space-around;
+}
+.choseus p{
+    font-size: larger;
+    letter-spacing: 0.5px;
+    margin-top: 60px;
+}
