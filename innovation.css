@@ -1,3 +1,4 @@
+/* ---------------------------------------------Home pag------------------------------------------------------------e*/
 header {
 
     padding: 0;
@@ -30,6 +31,11 @@ li {
 
 a {
     text-decoration: none;
+    color: #02073E;
+}
+a:hover{
+    background-color: #123466;
+    color: white;
 }
 
 .firstsection {
@@ -371,7 +377,7 @@ a {
     margin-top: -80px;
     padding-top: 80px;
 }
-
+/* ---------------------------------------------- Support page---------------------------------------------------*/
 .callus {
     display: flex;
     justify-content: center;
@@ -447,7 +453,7 @@ a {
     letter-spacing: 7PX;
     font-size: 10px;
 }
-
+/*------------------------------------------------About Us page----------------------------------------------------*/
 .aboutus {
     margin-top: 70px;
 }
@@ -543,6 +549,7 @@ a {
     letter-spacing: 0.5px;
     margin-top: 60px;
 }
+/*--------------------------------------------------advetise page -------------------------------------------------*/
 .firstinadvertise{
     text-align: center;
     margin-top: 80px;
