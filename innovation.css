@@ -339,3 +339,66 @@ a {
     margin-top: -80px;
     padding-top: 80px;
 }
+.callus{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+
+    
+}
+.callus img{
+    width: 350px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.support{
+    margin-top:50px ;
+    display: grid;
+    gap: 25px;
+    width:500px;
+    text-align: center;
+}
+.support div{
+    display:grid;
+    grid-template-columns: 47.5% 47.5%;
+    gap:5%;
+    
+}
+.support textarea{
+    height: 90px;
+}
+.support button{
+    align-self: flex-start;
+    background-color: #0A8080;
+    width:150px;
+    color:black;
+}
+.ourcontacts{
+    display: flex;
+    justify-content: space-around;
+}
+.ourcontacts img{
+    width: 350px;
+    height: 400px;
+   
+}
+.allcontacts{
+    display: grid;
+    height: 200px;
+    margin-top: 110px;
+   
+}
+.contacts{
+    display: flex;
+   height: 40px;
+   align-items: center;
+   gap: 10px;
+}
+.contacts img{
+    width:20px ;
+    height: 20px;
+}
+.contacts p{
+    letter-spacing: 7PX;
+}
