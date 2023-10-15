@@ -33,9 +33,11 @@ a {
     text-decoration: none;
     color: #02073E;
 }
-a:hover{
+
+a:hover {
     background-color: #123466;
     color: white;
+    font-size: large;
 }
 
 .firstsection {
@@ -81,6 +83,10 @@ a:hover{
     justify-content: space-around;
 }
 
+.homeicons {
+    display: grid;
+}
+
 .Grow h2 {
     color: #0F2137;
     font-weight: bold 34px;
@@ -106,7 +112,7 @@ a:hover{
     margin-top: 4px;
 }
 
-#director {
+.accounts p:last-of-type {
     color: #7E8896;
     margin-top: -17px;
     margin-left: -250px;
@@ -152,12 +158,21 @@ a:hover{
     justify-content: space-around;
 }
 
+.charachterimgs {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    gap: 20px;
+}
+
 .charachters h2 {
     color: #0F2137;
+    font-weight: bold;
 }
 
 .charachters p {
-    color: #7589A1;
+    color: #23538e;
+    font-weight: bold;
 }
 
 
@@ -207,6 +222,8 @@ a:hover{
 .forthsection p {
     font-size: 16px;
     opacity: .7;
+    color: #23538e;
+    font-weight: bold;
 }
 
 .forthsection a {
@@ -377,6 +394,7 @@ a:hover{
     margin-top: -80px;
     padding-top: 80px;
 }
+
 /* ---------------------------------------------- Support page---------------------------------------------------*/
 .callus {
     display: flex;
@@ -453,6 +471,7 @@ a:hover{
     letter-spacing: 7PX;
     font-size: 10px;
 }
+
 /*------------------------------------------------About Us page----------------------------------------------------*/
 .aboutus {
     margin-top: 70px;
@@ -549,71 +568,87 @@ a:hover{
     letter-spacing: 0.5px;
     margin-top: 60px;
 }
+
 /*--------------------------------------------------advetise page -------------------------------------------------*/
-.firstinadvertise{
+.firstinadvertise {
     text-align: center;
     margin-top: 80px;
 }
-.advertise{
+
+.advertise {
     display: flex;
     justify-content: space-around;
 }
-.advertise img{
+
+.advertise img {
     width: 200px;
     height: 200px;
     margin-left: -450px;
 }
-.advertise p{
+
+.advertise p {
     margin-top: 70px;
     font-size: larger;
 }
-.secondinadvertise{
+
+.secondinadvertise {
     text-align: center;
     margin-top: 90px;
 }
-.advertisewithus{
+
+.advertisewithus {
     display: flex;
     justify-content: space-around;
 }
-.advertisewithus img{
+
+.advertisewithus img {
     width: 200px;
     height: 200px;
     margin-left: 100px;
 }
-.advertisewithus p{
+
+.advertisewithus p {
     font-size: larger;
     margin-left: -90px;
 }
-.thirdinadvertise{
+
+.thirdinadvertise {
     text-align: center;
     margin-top: 90px;
 }
-.advertising-options{
+
+.advertising-options {
     display: flex;
     justify-content: space-around;
 }
-.advertising-options img{
+
+.advertising-options img {
     width: 200px;
     height: 200px;
     margin-left: -450px;
 }
-.advertising-options p{
+
+.advertising-options p {
     margin-top: 40px;
 }
-.lastinadvertise{
+
+.lastinadvertise {
     margin-top: 80px;
     text-align: center;
 }
-.inputadvertise{
+
+.inputadvertise {
     place-items: center;
     display: grid;
     gap: 15px;
 }
-.inputadvertise input{
-    width:30%;
+
+.inputadvertise input {
+    width: 30%;
 }
-.inputadvertise button{
-  width:150px;
-  border-radius: 15px;
-  background-color: #DB4A87;
+
+.inputadvertise button {
+    width: 150px;
+    border-radius: 15px;
+    background-color: #DB4A87;
 }
