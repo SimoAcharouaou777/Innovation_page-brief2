@@ -32,12 +32,15 @@ li {
 a {
     text-decoration: none;
     color: #02073E;
+
 }
 
 a:hover {
     background-color: #123466;
     color: white;
     font-size: large;
+    padding: 5px;
+    transition: 0.3s;
 }
 
 .firstsection {
