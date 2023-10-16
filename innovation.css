@@ -1,9 +1,4 @@
 /* ---------------------------------------------Home pag------------------------------------------------------------e*/
-header {
-
-    padding: 0;
-    margin: 0;
-}
 
 nav {
     display: flex;
@@ -45,7 +40,6 @@ a:hover {
 
 .firstsection {
     text-align: center;
-    margin: auto;
 }
 
 .fsection {
@@ -60,14 +54,11 @@ a:hover {
 }
 
 #button {
-    width: auto;
-    height: auto;
     background-color: #0A8080;
     border-radius: 5%;
     color: white;
     font-weight: bold 18px;
     padding: 6px;
-
 }
 
 .secondsection {
@@ -81,7 +72,6 @@ a:hover {
 .logos {
     text-align: center;
     display: flex;
-    flex-direction: row;
     padding: 80px;
     justify-content: space-around;
 }
@@ -134,7 +124,6 @@ a:hover {
 
 .companys {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     padding-left: 100px;
     padding-right: 100px;
@@ -224,7 +213,6 @@ a:hover {
 
 .forthsection p {
     font-size: 16px;
-    opacity: .7;
     color: #23538e;
     font-weight: bold;
 }
